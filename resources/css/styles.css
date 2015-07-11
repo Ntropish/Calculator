@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+* {
+    font-family: 'Oswald', serif;
+}
+#container {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 50%;
+}
+#display {
+    display: inline-block;
+    text-align: right;
+    width: 250px;
+    height: 12%;
+    border: solid 1px #eee;
+    align-self: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+#calculator {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    margin-left: -150px;
+    height: 100%;
+    width: 100%;
+}
+#add {
+    margin: 0;
+    position: absolute;
+    height: 112px;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.blocker {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    padding: 2px;
+    margin: 4px;
+    font-size:2em;
+    font-weight: 100;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    box-shadow: 0 1px 1px #bbb;
+    vertical-align: middle;
+    padding: 2px;
+    margin: 4px;
+    font-size:2em;
+    font-weight: 100;
+}
+.button:hover {
+    background-color: #eaeaea;
+    box-shadow: 0 1px 1px #ddd;
+}
